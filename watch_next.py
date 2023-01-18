@@ -64,7 +64,7 @@ planet_hulk = planet_hulk.rstrip()
 
 #---------------- load data
 lines_list = read_movies(data_path, movies_file, lines_list)
-nlp = spacy.load("C:\\Users\\rahim\\Downloads\\en_core_web_md\\en_core_web_md-3.4.1")
+nlp = spacy.load('en_core_web_md')
 
 #---------------- print output
 movie_next_index = next_movie_to_watch(planet_hulk, lines_list)
